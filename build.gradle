@@ -12,7 +12,9 @@ allprojects {
     }
 
     dependencies {
-        compile 'org.scala-lang:scala-library:2.11.4'
+     compile 'org.scala-lang:scala-library:2.11.4'
+     compile 'com.clearspring.analytics:stream:2.9.1-SNAPSHOT'
+     compile 'org.elasticsearch:elasticsearch:2.0.0-rc1'
     }
 
     distributions {
